@@ -530,6 +530,7 @@ body {
     background: linear-gradient(135deg, #E8A0B4, #D4859B);
     color: white;
     border: none;
+    text-decoration: none;
     padding: 10px 25px;
     border-radius: 30px;
     font-size: 0.85rem;
