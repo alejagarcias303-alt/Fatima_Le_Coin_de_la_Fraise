@@ -1,34 +1,29 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedidos | Le Coin de la Fraise</title>
-
-    <link rel="stylesheet" href="../CSS/Pedidos.css">
+    <title>Le Coin de la Fraise | Registro de Clientes</title>
+    <link rel="stylesheet" href="../CSS/Registro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
-
 <body>
-<div class="container-principal">
 
-    <!-- MENÚ LATERAL -->
+<div class="container-principal">
+    <!-- MENÚ LATERAL (SIDEBAR) - Contiene los vínculos a otras páginas -->
     <aside class="sidebar">
         <div class="logo-sidebar">
             <img src="../IMG/logo.png" alt="Logo">
         </div>
-
         <nav class="nav-sidebar">
-            <a href="../index.html"><i class="fas fa-home"></i> Inicio</a
-
+            <a href="../index.html"><i class="fas fa-home"></i> Inicio</a>
+                        
+            <!-- Opción con submenú -->
             <div class="menu-item-con-submenu">
                 <a href="#" class="menu-principal">
                     <i class="fas fa-utensils"></i> Nuestro Menú
                     <i class="fas fa-chevron-down submenu-flecha"></i>
                 </a>
-
                 <div class="submenu">
                     <a href="../HTML/MenuFresas.html">Fresas con Crema</a>
                     <a href="../HTML/MenuCrepas.html">Crepas</a>
@@ -36,14 +31,14 @@
             </div>
 
             <a href="../HTML/Pedidos.html"><i class="fas fa-receipt"></i> Pedidos</a>
-            <a href="../HTML/HTML/Nosotros.html"><i class="fas fa-info-circle"></i> ¿Quiénes Somos?</a>
-            <a href="../HTML/Registro.html"><i class="fas fa-user-plus"></i> Registrarse</a>
+            <a href="../HTML/Nosotros.html"><i class="fas fa-info-circle"></i> ¿Quiénes Somos?</a>
+            <a href="../HTML/Registro.html" class="active"><i class="fas fa-user-plus"></i> Registrarse</a>
         </nav>
     </aside>
 
-    <!-- CONTENIDO PRINCIPAL -->
+    <!-- CONTENIDO PRINCIPAL - SOLO PÁGINA DE REGISTRO -->
     <main class="main-content">
-
+        <!-- ENCABEZADO SUPERIOR -->
         <header class="header-principal">
             <div class="logo-header">
                 <img src="../IMG/logo.png" alt="Logo Le Coin de la Fraise">
